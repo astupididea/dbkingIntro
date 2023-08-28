@@ -1,0 +1,285 @@
+/*오랜지*/
+#orange {
+  /*background-color: orange;*/
+  width: 50%;
+  height: 100vh;
+  float: left;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.85) url(../assets/images/hospital.jpg);
+  background-blend-mode: darken;
+  background-size: cover;
+}
+
+#orange #orange_1 {
+  color: white;
+}
+
+#orange #p1 {
+  color: white;
+}
+
+#orange #mini_box1 {
+  border: 1px solid #c3c3c3;
+  background-color: #c3c3c3;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding: 1px 20px 3px 20px;
+  position: absolute;
+  top: 270px;
+  left: 22%;
+  transform: translate(-50%, -50%);
+}
+
+#orange #mini_box2 {
+  border: 1px solid #c3c3c3;
+  background-color: #c3c3c3;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding: 1px 30px 3px 30px;
+  position: absolute;
+  top: 270px;
+  left: 28%;
+  transform: translate(-50%, -50%);
+}
+
+#orange #mini_box3 {
+  border: 1px solid #c3c3c3;
+  background-color: #c3c3c3;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding: 1px 20px 3px 20px;
+  position: absolute;
+  top: 252px;
+  left: 27%;
+  transform: translate(-50%, -50%);
+}
+
+#orange #mini_box4 {
+  border: 1px solid #c3c3c3;
+  background-color: #c3c3c3;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding: 1px 30px 3px 30px;
+  position: absolute;
+  top: 252px;
+  left: 33%;
+  transform: translate(-50%, -50%);
+}
+
+#orange #p1 {
+  font-size: 35px;
+  position: absolute;
+  top: 330px;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+#orange h1 {
+  font-size: 60px;
+  position: absolute;
+  top: 450px;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+/*전국병원검색 제목*/
+#orange_2 h1 {
+  font-size: 50px;
+  position: absolute;
+  top: 250px;
+  left: 15%;
+}
+
+#orange_2 ul li {
+  font-size: 25px;
+}
+
+/*전국병원검색 텍스트 리스트*/
+#orange_2 ul li:first-child {
+  position: absolute;
+  top: 320px;
+  left: 8.5%;
+}
+
+#orange_2 ul li:nth-child(2) {
+  position: absolute;
+  top: 370px;
+  left: 8.5%;
+}
+
+#orange_2 ul li:nth-child(3) {
+  position: absolute;
+  top: 420px;
+  left: 8.5%;
+}
+
+#orange_2 ul li:nth-child(4) {
+  position: absolute;
+  top: 470px;
+  left: 8.5%;
+}
+
+#orange_2 ul li:nth-child(5) {
+  position: absolute;
+  top: 520px;
+  left: 8.5%;
+}
+
+/*#orange_2 #orange_input {
+  position: absolute;
+  left: 18%;
+  top: 650px;
+  border: 1px solid #999;
+  background-color: #fff;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-size: 25px;
+}*/
+
+/*보라*/
+#purple {
+  /*background-color: purple;*/
+  width: 50%;
+  height: 100vh;
+  float: left;
+  background: rgba(0, 0, 0, 0.7) url(../assets/images/gewon.jpg);
+  background-blend-mode: darken;
+  background-size: cover;
+}
+
+#purple #purple_1 {
+  color: white;
+}
+
+#purple #p2 {
+  color: white;
+}
+
+#purple #mini_box5 {
+  border: 1px solid #c3c3c3;
+  background-color: #c3c3c3;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding: 1px 20px 3px 20px;
+  position: absolute;
+  top: 270px;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+#purple #mini_box6 {
+  border: 1px solid #c3c3c3;
+  background-color: #c3c3c3;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding: 1px 20px 3px 20px;
+  position: absolute;
+  top: 252px;
+  left: 83.5%;
+  transform: translate(-50%, -50%);
+}
+
+#purple #p2 {
+  font-size: 35px;
+  position: absolute;
+  top: 330px;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+#purple h1 {
+  font-size: 60px;
+  position: absolute;
+  top: 450px;
+  left: 75%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+/*개원예정정보 제목*/
+#purple_2 h1 {
+  font-size: 50px;
+  position: absolute;
+  top: 250px;
+  left: 72%;
+}
+
+#purple_2 ul li {
+  font-size: 25px;
+}
+
+/*개원예정정보 텍스트 리스트*/
+#purple_2 ul li:first-child {
+  position: absolute;
+  top: 320px;
+  left: 65%;
+}
+
+#purple_2 ul li:nth-child(2) {
+  position: absolute;
+  top: 370px;
+  left: 65%;
+}
+
+#purple_2 ul li:nth-child(3) {
+  position: absolute;
+  top: 420px;
+  left: 65%;
+}
+
+#purple_2 ul li:nth-child(4) {
+  position: absolute;
+  top: 470px;
+  left: 65%;
+}
+
+#purple_2 ul li:nth-child(5) {
+  position: absolute;
+  top: 520px;
+  left: 65%;
+}
+
+/*가운데 원*/
+#one {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: black;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+}
+
+#one p {
+  font-size: 30px;
+  position: absolute;
+  width: 100%;
+  top: 40%;
+}
+
+/*#orange p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}*/
